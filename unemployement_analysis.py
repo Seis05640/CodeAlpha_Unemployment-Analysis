@@ -7,8 +7,6 @@ from datetime import datetime
 sns.set_style("whitegrid")
 plt.rcParams.update({'font.size': 12})
 
-#Load & Clean Data
-
 # Load datasets
 df1 = pd.read_csv("Unemployment in India.csv")
 df2 = pd.read_csv("Unemployment_Rate_upto_11_2020.csv")
@@ -56,7 +54,7 @@ plt.xticks(ticks=range(0, 12), labels=[
 plt.tight_layout()
 plt.show()
 
-#STEP 6: Summary Statistics
+#Summary Statistics
 
 print("\n------ Dataset 1 Summary Statistics ------")
 print(df1.describe())
@@ -76,4 +74,3 @@ print("\n------ COVID-19 IMPACT ON UNEMPLOYMENT ------")
 print(f"Average Pre-COVID Unemployment Rate: {avg_pre:.2f}%")
 print(f"Average Post-COVID Unemployment Rate: {avg_post:.2f}%")
 print(f"Increase in Unemployment Rate Due to COVID: {delta:.2f}%")
-
