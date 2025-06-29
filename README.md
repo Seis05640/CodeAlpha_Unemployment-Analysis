@@ -59,6 +59,12 @@ python unemployment_analysis.py
 
 ---
 
+## 🙌 Acknowledgements
+
+Thanks to **CodeAlpha** for providing this learning opportunity and guiding me through real-world machine learning applications.
+
+---
+
 ## 📃 Author
 **SRIRAM R**\
 [LinkedIn]:(www.linkedin.com/in/seis05640) | [Email]:(seis05640@gmail.com)
